@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "jfoRULQTQeGBNnwRBfIIzVGWRdbdNe648oR9+w4l1bs=",
+  "Source": "backendAttendance",
+  "BasePath": "_content/backendAttendance",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -41,7 +41,7 @@ namespace backendAttendance.Controllers
         [Route("Get")]
         public async Task<ActionResult<IEnumerable<AreaGetDto>>> GetAreas()
         {
-            var areas = await _context.Areas.ToListAsync();
+            var areas = await _context.Areas.OrderByDescending(a => a.createdAt).ToListAsync();
             var convertedAreas = _mapper.Map<IEnumerable<AreaGetDto>>(areas);
 
             return Ok(convertedAreas);

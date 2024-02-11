@@ -4,6 +4,8 @@
     {
         public long id { get; set; }
         public string areaName { get; set; }
+
+        public int officeNumber { get; set; }
         public DateTime createdAt { get; set; } = DateTime.Now;
 
 

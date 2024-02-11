@@ -1,0 +1,24 @@
+@import "../../mixins";
+
+.areas {
+  .heading {
+    @include d-flex(row, space-between, center);
+    width: 100%;
+  }
+}
+
+.add-area {
+  width: 500px;
+  max-width: 100%;
+  @include d-flex(column, flex-start, center);
+  gap: 3rem;
+  * {
+    color: var(--text-color1);
+    border-color: var(--text-color2);
+  }
+}
+.btns {
+  max-width: 100%;
+  @include d-flex(row, flex-start, center);
+  gap: 4rem;
+}

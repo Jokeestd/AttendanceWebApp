@@ -136,3 +136,4 @@ D:\Development\RegistroAsistencia\backendAttendance\backendAttendance\obj\Debug\
 D:\Development\RegistroAsistencia\backendAttendance\backendAttendance\obj\Debug\net8.0\ref\backendAttendance.dll
 D:\Development\RegistroAsistencia\backendAttendance\backendAttendance\bin\Debug\net8.0\AutoMapper.dll
 D:\Development\RegistroAsistencia\backendAttendance\backendAttendance\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Development\RegistroAsistencia\backendAttendance\backendAttendance\obj\Debug\net8.0\backendAttendance.sourcelink.json

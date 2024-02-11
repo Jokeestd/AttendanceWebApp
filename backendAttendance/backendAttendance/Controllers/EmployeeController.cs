@@ -42,7 +42,7 @@ namespace backendAttendance.Controllers
         [Route("Get")]
         public async Task<ActionResult<IEnumerable<EmployeeGetDto>>> GetEmployees()
         {
-            var employees = await _context.Employees.Include(employee => employee.area).ToListAsync();
+            var employees = await _context.Employees.Include(employee => employee.area).OrderByDescending(q=>q.createdAt).ToListAsync();
             var convertedEmployees = _mapper.Map<IEnumerable<EmployeeGetDto>>(employees);
 
             return Ok(convertedEmployees);
